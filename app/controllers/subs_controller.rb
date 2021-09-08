@@ -131,3 +131,4 @@ class SubsController < ApplicationController
     def sub_params
       params.require(:sub).permit(:name)
     end
+  end    
